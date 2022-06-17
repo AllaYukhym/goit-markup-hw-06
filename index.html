@@ -34,7 +34,7 @@
           </ul>
         </nav>
         <ul class="site-nav list">
-          <!--mail-icon-->
+          <!--mail icon-->
           <li class="item-contacts">
             <a href="mailto:info@devstudio.com" class="mail link">
               <svg class="header-icon" width="16" height="12">
@@ -42,7 +42,7 @@
               >info@devstudio.com
             </a>
           </li>
-          <!--tel-icon-->
+          <!--tel icon-->
           <li class="item-contacts">
             <a href="tel:+380961111111" class="tel link"
               ><svg class="header-icon" width="10" height="16">
@@ -60,7 +60,7 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <button type="button" class="hero-btn btn" data-modal-open>
+          <button type="button" class="btn-hero btn" data-modal-open>
             Заказать услугу
           </button>
         </div>
@@ -68,7 +68,9 @@
       <!--Features-->
       <section class="features section">
         <div class="container">
+          <!--hidden h2-->
           <h2 class="visually-hidden">Преимущества студии</h2>
+          <!--list of icons-->
           <ul class="features-list-icon list">
             <li class="features-item-icon">
               <svg class="features-icon" width="70" height="70">
@@ -91,6 +93,7 @@
               </svg>
             </li>
           </ul>
+          <!--list of text-->
           <ul class="list features-item">
             <li class="features-text">
               <h3 class="title">Внимание к деталям</h3>
@@ -158,6 +161,7 @@
         <div class="container">
           <h2 class="title">Наша команда</h2>
           <ul class="list">
+            <!--foto of worker-->
             <li class="foto">
               <img
                 src="./images/foto-img-1.jpg"
@@ -166,6 +170,7 @@
               />
               <h3 class="name">Игорь Демьяненко</h3>
               <p lang="en" class="position">Product Designer</p>
+              <!--social menu-->
               <ul class="team-soc-list list">
                 <li class="team-soc-item">
                   <a href="" class="team-soc-link link">
@@ -197,6 +202,7 @@
                 </li>
               </ul>
             </li>
+            <!--foto of worker-->
             <li class="foto">
               <img
                 src="./images/foto-img-2.jpg"
@@ -205,6 +211,7 @@
               />
               <h3 class="name">Ольга Репина</h3>
               <p lang="en" class="position">Frontend Developer</p>
+              <!--social menu-->
               <ul class="team-soc-list list">
                 <li class="team-soc-item">
                   <a href="" class="team-soc-link link">
@@ -236,6 +243,7 @@
                 </li>
               </ul>
             </li>
+            <!--foto of worker-->
             <li class="foto">
               <img
                 src="./images/foto-img-3.jpg"
@@ -244,6 +252,7 @@
               />
               <h3 class="name">Николай Тарасов</h3>
               <p lang="en" class="position">Marketing</p>
+              <!--social menu-->
               <ul class="team-soc-list list">
                 <li class="team-soc-item">
                   <a href="" class="team-soc-link link">
@@ -275,6 +284,7 @@
                 </li>
               </ul>
             </li>
+            <!--foto of worker-->
             <li class="foto">
               <img
                 src="./images/foto-img-4.jpg"
@@ -283,6 +293,7 @@
               />
               <h3 class="name">Михаил Ермаков</h3>
               <p lang="en" class="position">UI Designer</p>
+              <!--social menu-->
               <ul class="team-soc-list list">
                 <li class="team-soc-item">
                   <a href="" class="team-soc-link link">
@@ -321,6 +332,7 @@
       <section class="clients section">
         <div class="container">
           <h2 class="title">Постоянные клиенты</h2>
+          <!--list of clients-->
           <ul class="clients-list list">
             <li class="clients-item">
               <a href="" class="clients-icon-link link"
@@ -365,6 +377,7 @@
     <!------Footer----------->
     <footer class="footer">
       <div class="container">
+        <!--footer adress-->
         <div class="footer-adress">
           <a href="" lang="en" class="link logo"><span>Web</span>Studio</a>
           <address>
@@ -379,6 +392,7 @@
             </ul>
           </address>
         </div>
+        <!--footer social menu-->
         <div class="footer-social">
           <p class="footer-title">присоединяйтесь</p>
           <ul class="footer-soc-list list">
@@ -408,9 +422,24 @@
             </li>
           </ul>
         </div>
+        <!--footer form-->
+        <div class="footer-form">
+          <p class="footer-title">Подпишитесь на рассылку</p>
+          <input
+            type="email"
+            class="footer-input"
+            name="user-email-footer"
+            placeholder="E-mail"
+          />
+          <button type="submit" class="btn-footer btn">
+            Подписаться<svg class="form-icon-footer" width="24" height="24">
+              <use href="./images/icons.svg#icon-icon-send"></use>
+            </svg>
+          </button>
+        </div>
       </div>
     </footer>
-    <!------Backdrop------modal-window----------->
+    <!------------------Backdrop----------------->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="btn-modal-close" data-modal-close>
@@ -419,7 +448,7 @@
           </svg>
         </button>
         <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
-        <!---------------Form-----modal-window------------------>
+        <!--------------------Modal-window---form--------------->
         <form>
           <div class="form-field">
             <label for="user-name" class="modal-label">Имя</label>
